@@ -1,0 +1,36 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    width: 90%;
+    margin: auto;
+}
+/** header area start **/
+.header-area .colorful {
+    color: orange;
+}
+.header-area {
+    display: flex;
+    overflow: hidden;
+}
+.header-content {
+    width: 50%;
+    float: left;
+    margin-top: 80px;
+}
+.header-content img {
+    height: 400px;
+    width: 450px;
+    margin-left: 30px;
+}
+.header-content a {
+    text-decoration: none;
+    padding: 20px 20px;
+    background: linear-gradient(to right, orange, #EE5F03);
+    margin-top: 50px;
+    border-radius: 3px;
+    display: block;
+    text-align: center;
+    color: #FFFFFF;
+    box-shadow: 5px 10px #f0f8ff;
+}
