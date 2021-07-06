@@ -5,10 +5,11 @@ body {
     width: 90%;
     margin: auto;
 }
-/** header area start **/
-.header-area .colorful {
+.colorful {
     color: orange;
 }
+/** header area start **/
+
 .header-area {
     display: flex;
     overflow: hidden;
@@ -90,9 +91,24 @@ body {
 .recipe-area h3,p {
     text-align: center;
 }
+.recipe-area {
+    overflow: hidden;
+}
 .recipe-area p {
     line-height: 20px;
 }
 .recipe-area > h3 {
     font-size: 40px;
+}
+/** recipe area ends **/
+/**footer-area starts **/
+.footer-area {
+    background: #000000;
+    height: 100px;
+    width: auto;
+}
+.footer-area p {
+    color: #FFFFFF;
+    padding-top: 35px;
+    font-size: 30px;
 }
