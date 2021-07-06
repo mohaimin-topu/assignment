@@ -23,7 +23,7 @@ body {
     width: 450px;
     margin-left: 30px;
 }
-.header-content a {
+.button a {
     text-decoration: none;
     padding: 20px 20px;
     background: linear-gradient(to right, orange, #EE5F03);
@@ -33,4 +33,66 @@ body {
     text-align: center;
     color: #FFFFFF;
     box-shadow: 5px 10px #f0f8ff;
+}
+
+
+
+
+/** header area ends **/
+/*** about me area starts ***/
+.about-me {
+    background-image: url('images/Frame\ 57.jpg');
+    background-repeat: no-repeat;
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+}
+.about-me img {
+    height: 500px;
+    width: 450px;
+    margin-left: 30px;
+    margin-right: 70px;
+}
+.content-area {
+    text-align: center;
+}
+.content-area .button a {
+    margin-top: 100px;
+
+}
+.content-area p {
+    line-height: 25px;
+}
+.content-area h3 {
+    font-size: 40px;
+    font-weight: 700;
+}
+/** about me area ends **/
+/** recipe area starts **/
+.recipe {
+    height: 300px;
+    width: 250px;
+    text-align: center;
+    width: 31%;
+    float: left;
+    margin-left: 1%;
+    margin-right: 1%;
+    background: #EBF8FF;
+    border-radius: 3px;
+    border: 1px solid #808080;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+.recipe img {
+    height: 170px;
+    width: 320px;
+    border-radius: 2px;
+}
+.recipe-area h3,p {
+    text-align: center;
+}
+.recipe-area p {
+    line-height: 20px;
+}
+.recipe-area > h3 {
+    font-size: 40px;
 }
